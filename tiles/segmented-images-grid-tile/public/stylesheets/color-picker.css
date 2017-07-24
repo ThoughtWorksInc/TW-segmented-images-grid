@@ -1,0 +1,76 @@
+/* line 11, ../../sass/partical/color-picker.scss */
+.color-palette-item {
+  height: 26px;
+  width: 26px;
+  display: inline-block;
+  margin-right: 2px;
+  border-radius: 5px;
+  background-color: #5e3e2a;
+}
+/* line 2, ../../sass/mixin/_clearfix.scss */
+.color-palette-item:before, .color-palette-item:after {
+  content: " ";
+  display: table;
+}
+/* line 7, ../../sass/mixin/_clearfix.scss */
+.color-palette-item:after {
+  clear: both;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-black {
+  background-color: #000000;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-brown {
+  background-color: #5e3e2a;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-blue {
+  background-color: #1a73ba;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-purple {
+  background-color: #6a2569;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-rhodo {
+  background-color: #b11c54;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-red {
+  background-color: #ee312d;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-orange {
+  background-color: #f78f31;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-pink {
+  background-color: #ef5ba1;
+}
+/* line 6, ../../sass/partical/color-picker.scss */
+.color-palette-item.bg-color-green {
+  background-color: #11aa58;
+}
+/* line 31, ../../sass/partical/color-picker.scss */
+.color-palette-item.selected:after {
+  content: "";
+  background-color: transparent;
+  position: relative;
+  left: 8px;
+  top: 3px;
+  width: 10px;
+  border-bottom: 3px solid #fff;
+  height: 16px;
+  border-right: 3px solid #fff;
+  transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+/* line 49, ../../sass/partical/color-picker.scss */
+.horizontal-line {
+  width: 100%;
+  border-top: 1px solid #dedede;
+}

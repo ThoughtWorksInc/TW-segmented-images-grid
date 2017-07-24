@@ -1,0 +1,16 @@
+{
+    "displayName" : "Segmented Images Grid",
+    "name" : "segmented-images-grid-tile",
+    "description" : "Create a set of segmented tiles with image backgrounds and a small blurb for easy access to important links.",
+    "style": "CUSTOM_VIEW",
+    "displayWidth" : "WIDE",
+    "dataProviderKey": "internal",
+    "pageTypes" : [ "PLACE", "USER" ],
+    "icons": {
+        "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+        "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+        "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+    },
+    "config": "/segmented-images-grid-tile/configuration.html",
+    "view": "/segmented-images-grid-tile/view.html"
+}

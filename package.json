@@ -1,0 +1,30 @@
+{
+  "name": "segmented-images-grid-tile",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "express": "3.1.0",
+    "jive-sdk":"0.1.212",
+    "mustache": "0.7.2",
+    "consolidate": "0.9.0",
+    "poplib" : "0.1.5",
+    "q": "0.9.3",
+    "multipart-parser" : "0.0.2",
+    "q-io":     "1.6.x",
+    "request": "2.27.0",
+    "xml2js": "0.2.8",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0"
+  }
+}

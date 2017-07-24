@@ -1,0 +1,6 @@
+.idea/
+db
+extension.zip
+extension_src
+node_modules
+tiles/segmented-images-grid-tile/public/javascripts/.module-cache

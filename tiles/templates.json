@@ -1,0 +1,10 @@
+{
+    "default": {
+        "name": "defaultTemplate",
+        "displayName": "segmented-images-grid-tile",
+        "description": "Create a set of segmented tiles with image backgrounds and a small blurb for easy access to important links",
+        "tiles": [
+            "segmented-images-grid-tile"
+        ]
+    }
+}
